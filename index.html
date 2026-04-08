@@ -13,13 +13,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
     <link rel="icon" href="https://image.flaticon.com/icons/png/512/40/40031.png">
 </head>
 <body>
+
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
+
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
@@ -28,7 +30,7 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Testimonials</a></li>
+                <!-- Testimonials REMOVED -->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -37,7 +39,7 @@
         </div>
     </nav>
 
-    <!-- home section start -->
+    <!-- HOME -->
     <section class="home" id="home">
       <div class="max-width">
           <div class="row">
@@ -51,7 +53,7 @@
       </div>
     </section>
 
-    <!-- about section start -->
+    <!-- ABOUT -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
@@ -64,13 +66,15 @@
                     <p>I'm an experienced Mechanical Engineer with thorough understanding of
                         complex Mechanical Engineering issues and execution of technical
                         matters. I'm also a fast learner who thrives under pressure.</p>
-                    <a href="https://www.linkedin.com/in/arifhaziq/" target="_blank"><i class="fab fa-linkedin"></i>&nbsp; LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/arifhaziq/" target="_blank">
+                        <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-   <!-- services section start -->
+    <!-- SERVICES -->
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
@@ -79,186 +83,59 @@
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Model Software</div>
-                        <p>Including and not limited to OpenFOAM, ANSYS, CATIA, AutoCAD and SOLIDWORKS.</p>
+                        <p>Including OpenFOAM, ANSYS, CATIA, AutoCAD and SOLIDWORKS.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Power BI</div>
-                        <p>Strong grasp of Power BI methodologies for powerful data visualization.</p>
+                        <p>Strong grasp of Power BI methodologies.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Microsoft Office</div>
-                        <p>Complete understanding and practical knowledge of Microsoft Office applications.</p>
+                        <p>Complete understanding of MS Office tools.</p>
                     </div>
                 </div>
-               </div>
             </div>
         </div>
     </section>
 
-    <!-- skills section start -->
+    <!-- SKILLS -->
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My skills and experiences.</div>
-                    <p>I have considerable experience working in top industry players such as Air Selangor and Paramit. I have always brought a positive attitude and analytical approach to each of my endeavours. I am also a collaborative team player who puts the collective good of the team above all. Finally, I am extremely results driven with strong preseverance.</p>
+                    <p>Experienced in industrial environments with strong analytical and execution skills.</p>
                     <a href="#contact">Questions?</a>
                 </div>
                 <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>Analytical Thinking</span>
-                            
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Problem Solving</span>
-                            
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Time Management</span>
-                            
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Communication</span>
-                           
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Teamwork</span>
-
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
+                    <div class="bars"><div class="info"><span>Analytical Thinking</span></div><div class="line html"></div></div>
+                    <div class="bars"><div class="info"><span>Problem Solving</span></div><div class="line css"></div></div>
+                    <div class="bars"><div class="info"><span>Time Management</span></div><div class="line js"></div></div>
+                    <div class="bars"><div class="info"><span>Communication</span></div><div class="line php"></div></div>
+                    <div class="bars"><div class="info"><span>Teamwork</span></div><div class="line mysql"></div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- teams section start -->
-    <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">Testimonials</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Selwindev S.</div>
-                        <p>Detail oriented, analytical and a real pleasure to work with.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Heena A.</div>
-                        <p>Compassionate, understanding individual with great leadership skills.</p>
-                    </div>
-                </div>
-              
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Haris Z.</div>
-                        <p>Dependable, accountable and trustworthy.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile.jpeg" alt="">
-                        <div class="text">Jaggehn S.</div>
-                        <p>A hardworking, talented and forward thinking individual.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Carrmen S.</div>
-                        <p>An excellent team player with bright ideas and execution.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- contact section start -->
+    <!-- CONTACT -->
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Shoot me any queries you may have. I typically respond within 48 hours although waiting times may vary!</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Arif Haziq b. Abdul Rahman</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Kuala Lumpur, Malaysia</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">arifhaziq012@gmail.com</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me!</div>
-                    <form class="contact-form"  action="https://formspree.io/f/xleagpry"
-                    method="POST">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" class="email-input" placeholder="Email" name="_replyto" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" class="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <p>Reach out for professional inquiries.</p>
         </div>
     </section>
 
-    <!-- footer section start -->
+    <!-- FOOTER -->
     <footer>
-        <span>ArifHaziq</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>ArifHaziq | © 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
